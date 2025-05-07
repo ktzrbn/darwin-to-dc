@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 def transform_csv(input_csv, output_xml):
     mappings = {
         'TaxonName': 'dc:title',
-        'Distribution': 'dc:coverage:spatial',
+        'Distribution': 'dcterms:spatial',
         'Family': 'dc:description',
         'CommonNameDefault': 'dc:description',
         'LifeForm': 'dc:description',

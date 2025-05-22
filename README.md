@@ -9,6 +9,3 @@ To use the script, download a CSV file (in this case, from IrisBG). Rename the C
 to reflect the correct CSV file name in line 50. 
 
 Make sure the CSV file is in the same directory as the Python script, then run ```python3 transform-con.py```. 
-
-The DublinCore XML file will be named output.xml once the process is completed. You can use something like https://jsonformatter.org/xml-formatter to format 
-the XML for human readability. 

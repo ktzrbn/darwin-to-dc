@@ -48,7 +48,7 @@ def transform_csv(input_csv, output_xml):
     # Format the XML with proper indentation
     tree = ET.ElementTree(root)
     
-    # Try to use ET.indent if available (Python 3.9+)
+    # Attempt indentation 
     try:
         ET.indent(tree, space="  ")
         # Write the indented XML
